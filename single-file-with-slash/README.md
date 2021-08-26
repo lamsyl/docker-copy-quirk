@@ -1,7 +1,17 @@
 ## Comparison betweeen `single-file-without-slash` and `single-file-with-slash`
 
-`single-file-without-slash`: `COPY file /dir1/dir2`
-`single-file-with-slash`: `COPY file /dir1/dir2/`
+### `single-file-without-slash`
+
+```
+COPY file /dir1/dir2
+```
+
+
+### `single-file-with-slash`
+
+```
+COPY file /dir1/dir2/
+```
 
 ## Build image
 
