@@ -1,3 +1,11 @@
+## Takeaway
+
+Specify the file name in the destination
+
+```
+COPY file /dir1/dir2/file
+```
+
 ## Comparison betweeen `single-file-without-slash` and `single-file-with-slash`
 
 ### `single-file-without-slash`
